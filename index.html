@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>C++ for Beginners</title>
   </head>
-
   <body>
     <nav id="navbar">
       <header>
-        <h1>C++ Documentation</h1>
+        <h2 id="main-header">C++ Documentation</h2>
       </header>
 
       <ul>
@@ -160,6 +160,7 @@
             <img
               src="https://devblogs.microsoft.com/wp-content/uploads/sites/9/2019/02/t1-add-cpp-file-500x330.jpg"
               alt="A screenshot from the visual studio working page"
+              class="section-image"
             />
           </li>
           <li>
@@ -173,15 +174,25 @@
             C++ code. If you want basic template code that will build and is
             suitable for experimentation, copy the code below into the new C++
             file, then press CTRL-F5 to build and run.
-            <code class="red">int main() { return 0; }</code> This code is
-            nothing more than an empty shell, ready for your exploration into
-            C++.
+            <code class="standout-code">
+              <br />
+              int main() { <br />
+              &nbsp; return 0; <br />
+              }<br />
+            </code>
+            This code is nothing more than an empty shell, ready for your
+            exploration into C++.
           </li>
         </ol>
         <p>The following program writes Hello world to the screen(console)</p>
 
         <div class="code-snippet">
-          <p>int main() { cout&lt;&lt; "Hello World"; return 0;}</p>
+          <p>
+            int main() { <br />
+            &nbsp; &nbsp;&nbsp; cout&lt;&lt; "Hello World"; <br />
+            &nbsp; &nbsp;&nbsp; return 0; <br />
+            &nbsp; }
+          </p>
         </div>
       </section>
 
@@ -206,10 +217,15 @@
         <p>
           You have to announce each variable to C++ before you can use it. You
           have to say something soothing like this:
-          <code class="red"> int x; x = 10; int y; y = 5; </code> These lines of
-          code declare that a variable x exists, is of type int, and has the
-          value 10; and that a variable y of type int also exists with the value
-          5
+          <code class="standout-code">
+            <p>int x;</p>
+            <p>x = 10;</p>
+            <p>int y;</p>
+            <p>y = 5;</p>
+          </code>
+          These lines of code declare that a variable x exists, is of type int,
+          and has the value 10; and that a variable y of type int also exists
+          with the value 5
         </p>
       </section>
 
@@ -262,7 +278,7 @@
 
         <p>Using #define preprocessor to define a constant −</p>
         <div class="code-snippet">
-          <p>#define identifier value</p>
+          <p>#define IDENTIFIER value</p>
         </div>
 
         <p>Using #const preprocessor to define a constant −</p>
@@ -354,7 +370,13 @@
           condition is false. An if statement looks as follows:
         </p>
         <div class="code-snippet">
-          <code> if (condition) { statement_1; } else { statement_2; } </code>
+          <code>
+            if (condition) { <br />
+            &nbsp; statement_1; <br />
+            } else { <br />
+            &nbsp; statement_2; <br />
+            }
+          </code>
         </div>
 
         <p>
@@ -372,9 +394,15 @@
 
         <div class="code-snippet">
           <code>
-            if (condition_1) { statement_1; } else if (condition_2) {
-            statement_2; } else if (condition_n) { statement_n; } else {
-            statement_last; }
+            if (condition_1) { <br />
+            &nbsp; statement_1;<br />
+            } else if (condition_2) { <br />
+            &nbsp; statement_2; <br />
+            } else if (condition_n) { <br />
+            &nbsp; statement_n; <br />
+            } else { <br />
+            &nbsp; statement_last; <br />
+            }
           </code>
         </div>
       </section>
@@ -388,7 +416,11 @@
           condition evaluates to true. A while statement looks as follows:
         </p>
         <div class="code-snippet">
-          <p>while (condition) statement</p>
+          <p>
+            while (condition) {<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;statement <br />
+            }
+          </p>
         </div>
 
         <p>
@@ -410,7 +442,14 @@
         </p>
 
         <div class="code-snippet">
-          <code>int n = 0; int x = 0; while (n &lt; 3) { n++; x += n; }</code>
+          <code>
+            int n = 0; <br />
+            int x = 0; <br /><br />
+            while (n &lt; 3) { <br />
+            &nbsp; n++; <br />
+            &nbsp; x += n; <br />
+            }</code
+          >
         </div>
 
         <p>
@@ -460,7 +499,11 @@
         </p>
 
         <div class="code-snippet">
-          <p>double function square(number) { return (number * number); }</p>
+          <p>
+            double function square(number) { <br />
+            &nbsp; &nbsp; &nbsp; &nbsp; return (number * number); <br />
+            &nbsp; &nbsp;}
+          </p>
         </div>
 
         <p>
@@ -487,7 +530,7 @@
         </header>
         <p>
           All the documentation in this page is taken from
-          <a href="https://pranx.com/">MDN</a>
+          <a href="https://pranx.com/" target="_blank">HEAVEN</a>
         </p>
       </section>
     </main>
