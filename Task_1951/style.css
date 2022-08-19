@@ -1,0 +1,49 @@
+body {
+    background: rgb(255,255,255);
+}
+
+.main-gallery{
+    width: 550px;
+    background-color: #e0ca9f;
+    height: 250px;
+    margin: auto;
+    border: 3px solid rgb(253, 251, 251);
+    outline: 4px solid rgb(90, 56, 15);
+    box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.6);
+}
+
+.cocktail {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cocktail::after, .cocktail::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 80px;
+    height: 70px;
+    left: -40px;
+    bottom: -40px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.5);
+    outline: 1.5px dashed  #c2b59d ;
+    outline-offset: -5px;
+    background: #ffffff;
+}
+
+.cocktail::after {
+    left: auto;
+    right: -40px;
+    top: -40px;
+}
+
+.cocktail img {
+    display: block;
+    padding: 6px;
+    background: #c9ac79;
+    border: 2px solid #8d6f39;
+    outline: 2px solid #53401d;
+}
