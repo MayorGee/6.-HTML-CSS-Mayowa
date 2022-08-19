@@ -2,7 +2,6 @@
     background-color: #795548;
     color: white;
     padding: 1rem;
-    width: 50vw;
     height: 200px;
 }
 
@@ -13,6 +12,7 @@
     padding: 0 5px;
     margin: 4px;
     font-size: 20px;
+    overflow: hidden;
 }
 
 .main-content-header::before,
@@ -20,6 +20,14 @@
     display: inline-block;
     content: "";
     border-top: 0.2rem solid yellow;
-    width: 32%;
+    width: 50%;
     margin: 0 0.5rem;
+}
+
+.main-content-header::before{
+    margin-left: -50%;
+}
+
+.main-content-header::after{
+    margin-right: -50%;
 }
