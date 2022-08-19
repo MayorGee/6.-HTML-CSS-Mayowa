@@ -2,24 +2,24 @@
     background-color: #795548;
     color: white;
     padding: 1rem;
-    width: 400px;
+    width: 50vw;
     height: 200px;
-}
-
-.horizontal-rule{
-    background-color: yellow;
-    display: inline-block;
-    width:370px;
-    height: 2px;
-    border: none;
 }
 
 .main-content-header {
     color: yellow;
-    position: relative;
-    top: 20px;
-    left: 100px;
+    text-align: center;
     background-color: #795548;
     padding: 0 5px;
+    margin: 4px;
     font-size: 20px;
+}
+
+.main-content-header::before,
+.main-content-header::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.2rem solid yellow;
+    width: 32%;
+    margin: 0 0.5rem;
 }

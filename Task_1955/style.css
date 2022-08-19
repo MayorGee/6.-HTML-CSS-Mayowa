@@ -2,19 +2,19 @@
     width: 100%;
 }
 
-.nav-bar .nav-menu {
+.nav-menu {
     list-style-type: none;
     font-family: "Roboto";
     background-color: #b41a83;
     padding: 10px;
 }
   
-.nav-bar .nav-menu li {
+.nav-item {
     padding: 15px;
     display: inline;
 }
   
-.nav-bar .nav-menu li a {
+.nav-link {
     text-decoration: none;
     color: white;
 }

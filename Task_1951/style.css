@@ -4,12 +4,9 @@ body {
 
 .main-gallery{
     width: 550px;
-    background-color: #e0ca9f;
+    background-color: #f3ebde;
     height: 250px;
     margin: auto;
-    border: 3px solid rgb(253, 251, 251);
-    outline: 4px solid rgb(90, 56, 15);
-    box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.6);
 }
 
 .cocktail {
@@ -40,10 +37,9 @@ body {
     top: -40px;
 }
 
-.cocktail img {
+.cocktail-img {
     display: block;
     padding: 6px;
-    background: #c9ac79;
-    border: 2px solid #8d6f39;
-    outline: 2px solid #53401d;
+    background: #c4b8a5;
+    border: 2px solid #aa8d58a2;
 }
