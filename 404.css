@@ -1,13 +1,8 @@
-body{
-    display: flex;
-    justify-content: center;
-}
-
 .page-content {
-    margin-top: 15vh;
+    margin: 15vh auto;
 }
 
-.exit-link {
+.page-content__exit {
     color: rgb(199, 117, 11);
     text-decoration: none;
 }
