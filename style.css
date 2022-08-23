@@ -9,7 +9,7 @@ body{
 
 .page-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -18,10 +18,9 @@ body{
 
 .navbar {
     position: fixed;
-    height: 100vh;
     width: 20%;
     margin: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(2, 7, 29);
 }
 
 .navbar__header {
@@ -33,17 +32,17 @@ body{
     background-color: rgb(233, 220, 147);
 }
 
-.navbar__list {
+.navbar__list, .footer__list {
     margin: 0;
     padding: 0;
 }
 
-.navbar__item {
+.navbar__item, .footer__item {
     line-height: 2;
     list-style-type: none;
 }
 
-.navbar__link {
+.navbar__link, .footer__link{
     display: block; 
     padding: 10px 0 10px 20px;
     color: white;
@@ -55,7 +54,7 @@ body{
     width: 80%;
     margin: 0 0 0 19%;
     padding: 2rem;
-    background-color: rgb(14, 31, 63);
+    background-color: rgb(34, 46, 66);
     font-family: 'Patrick Hand', cursive;
 }
 
@@ -96,7 +95,7 @@ body{
 .flex-table {
     display: flex;
     flex-flow: column nowrap;
-    width: 60vw;
+    width: 50vw;
     margin: 1rem  auto;
     box-sizing: border-box;
     background-color: black;
@@ -126,6 +125,43 @@ body{
     font-weight: 700;
 }
 
+.footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 80%;
+    height: 25vh;
+    margin: 0 0 0 19%;
+    background-color: #000000;
+}
+
+.upper-footer-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo-link{
+    color: rgb(192, 80, 36);
+    text-decoration: none;
+}
+
+.footer__list{
+    display: flex;
+}
+
+.footer__copyright{
+    color:rgba(165, 161, 161, 0.5);
+    font-size: 16px;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {  
     .page-container {
         flex-direction: column;
@@ -145,5 +181,10 @@ body{
         margin: 0;
         padding-top: 35vh;
         min-height: 100vh;
+    }
+
+    .footer {
+        width: 100%;
+        margin: 0;
     }
 }
