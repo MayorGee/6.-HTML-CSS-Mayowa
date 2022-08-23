@@ -1,0 +1,28 @@
+.section__list {
+    padding-left: 3rem;
+}
+
+.section__link {
+    color: #42f5ef;
+    text-decoration: none;
+}
+
+.section__paragraph {
+    margin: 10px;
+    text-indent: 15px;
+}
+
+.standout-code {
+    color: red;
+}
+
+.section-image {
+    display: block;
+    margin: 2rem;
+}
+
+.section__header {
+    color: #ebd69d;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
