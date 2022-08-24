@@ -1,4 +1,3 @@
-
 .navbar {
     position: fixed;
     width: 20%;
@@ -15,7 +14,7 @@
     background-color: rgb(233, 220, 147);
 }
 
-.navbar__list, .footer__list {
+.navbar__list {
     margin: 0;
     padding: 0;
 }
