@@ -13,7 +13,7 @@
             <link href='Styles/main.css' rel='stylesheet' type='text/css' />
             <link href='Styles/nav-style.css' rel='stylesheet' type='text/css' />
             <link href='Styles/footer.css' rel='stylesheet' type='text/css' />
-            <link href='Styles/flex-table.css' rel='stylesheet' type='text/css' />
+            <link href='Styles/data-types-c++.css' rel='stylesheet' type='text/css' />
             <link href='Styles/section.css' rel='stylesheet' type='text/css' />
             
             <title>C++ for Beginners</title>
@@ -352,53 +352,53 @@
                            their sizes (in bytes):
                         </p>
                     
-                        <div class='flex-table'>
-                            <div class='flex-table__row flex-table__row_header'>
-                                <span class=flex-table__cell>Data Types</span>
-                                <span class=flex-table__cell>Meaning</span>
-                                <span class=flex-table__cell>Size(in Bytes)</span>
+                        <div class='data-types'>
+                            <div class='data-types__row data-types__row_header'>
+                                <span class=data-types__cell>Data Types</span>
+                                <span class=data-types__cell>Meaning</span>
+                                <span class=data-types__cell>Size(in Bytes)</span>
                             </div>
                         
-                            <div class='flex-table__row'>
-                                <span class=flex-table__cell>int</span>
-                                <span class=flex-table__cell>Integer</span>
-                                <span class=flex-table__cell>2 or 4</span>
+                            <div class='data-types__row'>
+                                <span class=data-types__cell>int</span>
+                                <span class=data-types__cell>Integer</span>
+                                <span class=data-types__cell>2 or 4</span>
                             </div>
                         
-                            <div class='flex-table__row'>
-                                <span class=flex-table__cell>float</span>
-                                <span class=flex-table__cell>Floating point</span>
-                                <span class=flex-table__cell>4</span>
+                            <div class='data-types__row'>
+                                <span class=data-types__cell>float</span>
+                                <span class=data-types__cell>Floating point</span>
+                                <span class=data-types__cell>4</span>
                             </div>
                         
-                            <div class='flex-table__row'>
-                                <span class=flex-table__cell>double</span>
-                                <span class=flex-table__cell>Double floating-point</span>
-                                <span class=flex-table__cell>8</span>
+                            <div class='data-types__row'>
+                                <span class=data-types__cell>double</span>
+                                <span class=data-types__cell>Double floating-point</span>
+                                <span class=data-types__cell>8</span>
                             </div>
                         
-                            <div class='flex-table__row'>
-                                <span class=flex-table__cell>char</span>
-                                <span class=flex-table__cell>Character</span>
-                                <span class=flex-table__cell>1</span>
+                            <div class='data-types__row'>
+                                <span class=data-types__cell>char</span>
+                                <span class=data-types__cell>Character</span>
+                                <span class=data-types__cell>1</span>
                             </div>
                         
-                            <div class='flex-table__row'>
-                                <span class=flex-table__cell>wchar-t</span>
-                                <span class=flex-table__cell>wide character</span>
-                                <span class=flex-table__cell>2</span>
+                            <div class='data-types__row'>
+                                <span class=data-types__cell>wchar-t</span>
+                                <span class=data-types__cell>wide character</span>
+                                <span class=data-types__cell>2</span>
                             </div>
                         
-                            <div class='flex-table__row'>
-                                <span class=flex-table__cell>bool</span>
-                                <span class=flex-table__cell>Boolean</span>
-                                <span class=flex-table__cell>1</span>
+                            <div class='data-types__row'>
+                                <span class=data-types__cell>bool</span>
+                                <span class=data-types__cell>Boolean</span>
+                                <span class=data-types__cell>1</span>
                             </div>
                         
-                            <div class='flex-table__row'>
-                                <span class=flex-table__cell>void</span>
-                                <span class=flex-table__cell>Empty</span>
-                                <span class=flex-table__cell>0</span>
+                            <div class='data-types__row'>
+                                <span class=data-types__cell>void</span>
+                                <span class=data-types__cell>Empty</span>
+                                <span class=data-types__cell>0</span>
                             </div>
                         </div>
                     </section>
@@ -586,25 +586,15 @@
 
                 </main>
                 <footer class='footer' id='footer'>
-                    <div class='upper-footer-row'>
-                        <h2 class='footer__logo'>
-                            <a href='#' class='footer__logo-link'>
-                                BubbleTech
-                                <img src='logo.jpg' width='50' height='60' class='footer__logo-pic'/>
+                    <div class='footer__top'>
+                        <div class='footer-logo'>
+                            <a href='#' class='footer-logo__logo-link'>
+                                <span class='footer-logo__logo-text'>BubbleTech</span>
+                                <img src='logo.jpg' width='50' height='60' class='footer-logo__logo-pic'/>
                             </a>
-                        </h2>
+                        </div>
 
-                        <ul class='footer__list'>
-                            <li class='footer__item'>
-                                <a 
-                                    href='https://pranx.com/hacker/' 
-                                    class='footer__link'
-                                    target=''_blank'
-                                >
-                                    Hacking
-                                </a>
-                            </li>
-    
+                        <ul class='footer__list'> 
                             <li class='footer__item'>
                                 <a 
                                     href='./similar-site-1/index.html' 
@@ -624,13 +614,42 @@
                                     Similar Site 2
                                 </a>
                             </li>
-    
-                            <li class='footer__item'>
-                                <a href='https://pranx.com/matrix-code-rain/' class='footer__link'>Code Rain</a>
-                            </li>
                         </ul>
                     </div>
                     
+                    <div class='footer__middle'>
+                        <a href='' class='social-icon'>
+                            <img 
+                                src='Images/gmail-logo.png' 
+                                alt='gmail logo' 
+                                class='footer__icon'
+                            />
+                        </a>
+
+                        <a href='' class='social-icon'>
+                            <img 
+                                src='Images/vk-logo.png' 
+                                alt='vk logo' 
+                                class='footer__icon'
+                            />
+                        </a>
+
+                        <a href='' class='social-icon'>
+                            <img 
+                                src='Images/insta-logo.png' 
+                                alt='instagram logo' 
+                                class='footer__icon'
+                            />
+                        </a>
+
+                        <a href='' class='social-icon'>
+                            <img 
+                                src='Images/fb-logo.png' 
+                                alt='facebook logo' 
+                                class='footer__icon'
+                            />
+                        </a>
+                    </div>
               
                      <p class='footer__copyright'>2022 &copy; BubbleTech. All Rights Reserved</p>
                 </footer>

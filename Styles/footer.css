@@ -8,21 +8,70 @@
     background-color: #000000;
 }
 
-.upper-footer-row {
+.footer_javascript {
+    background-color: rgb(223, 219, 219);
+}
+
+.footer_finance {
+    background-color: rgb(223, 219, 219);
+}
+
+.footer__top {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.footer__logo{
+.footer__middle {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+}
+
+.footer-logo{
     display: flex;
     align-items: center;
 }
 
-.footer__logo-link{
+.footer-logo__logo-link{
     color: rgb(192, 80, 36);
     text-decoration: none;
+}
+
+.footer-logo__logo-link_javascript {
+    color: rgb(105, 167, 13);
+}
+
+.footer-logo__logo-link_finance {
+    color: rgb(112, 102, 102);
+}
+
+.footer-logo__logo-pic {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-logo__logo-pic_rounded {
+    border-radius: 50%;
+}
+
+.footer__item {
+    line-height: 2;
+    list-style-type: none;
+}
+
+.footer__link{
+    display: flex; 
+    padding: 10px 0 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer__link_dark {
+    color: black;
 }
 
 .footer__list{
@@ -35,6 +84,10 @@
     color:rgba(165, 161, 161, 0.5);
     font-size: 16px;
     text-align: center;
+}
+
+.footer__copyright_dark {
+    color:rgba(99, 96, 96, 0.5);
 }
 
 @media screen and (max-width: 900px) {  

@@ -10,21 +10,21 @@
             <link href='https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Patrick+Hand&display=swap' rel='stylesheet'>
             <link href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap' rel='stylesheet'>
             
-            <link href='Styles/main.css' rel='stylesheet' type='text/css' />
-            <link href='Styles/nav-style.css' rel='stylesheet' type='text/css' />
-            <link href='Styles/footer.css' rel='stylesheet' type='text/css' />
-            <link href='Styles/section.css' rel='stylesheet' type='text/css' />
+            <link href='../Styles/main.css' rel='stylesheet' type='text/css' />
+            <link href='../Styles/nav-style.css' rel='stylesheet' type='text/css' />
+            <link href='../Styles/footer.css' rel='stylesheet' type='text/css' />
+            <link href='../Styles/section.css' rel='stylesheet' type='text/css' />
             
             <title>Money Lives Here</title>
         </head>
         <body>
             <div class='page-container'>
-                <nav id='navbar' class='navbar'>
-                    <div class='upper-navbar'>
-                        <header class='navbar__header'>
-                            <a href=''>
+                <nav id='navbar' class='navbar navbar_finance'>
+                    <div class='navbar__top'>
+                        <header class='navbar__header navbar__header_finance'>
+                            <a href='' class='site-refresh'>
                                 <img 
-                                    src='Images/logo.png' 
+                                    src='../Images/logo.png' 
                                     alt='main logo'
                                     class='main-logo'
                                 >
@@ -33,9 +33,9 @@
 
                         <ul class='navbar__list'>
                             <li class='navbar__item'>
-                                <a href='#dashboard' class='navbar__link navbar__link_active'>
+                                <a href='#dashboard' class='navbar__link navbar__link_dark navbar__link_active'>
                                     <img 
-                                        src='Icons/dashboard.png' 
+                                        src='../Icons/dashboard.png' 
                                         alt='dashboard icon'
                                         class='navbar__link-icon'
                                     />
@@ -44,9 +44,9 @@
                             </li>
 
                             <li class='navbar__item'>
-                                <a href='#social' class='navbar__link'>
+                                <a href='#social' class='navbar__link navbar__link_dark'>
                                     <img 
-                                        src='Icons/social.png' 
+                                        src='../Icons/social.png' 
                                         alt='social icon'
                                         class='navbar__link-icon' 
                                     />
@@ -55,9 +55,9 @@
                             </li>
 
                             <li class='navbar__item'>
-                                <a href='#automation' class='navbar__link'>
+                                <a href='#automation' class='navbar__link navbar__link_dark'>
                                     <img 
-                                        src='Icons/automation.png' 
+                                        src='../Icons/automation.png' 
                                         alt='automation icon' 
                                         class='navbar__link-icon'
                                     />
@@ -66,9 +66,9 @@
                             </li>
 
                             <li class='navbar__item'>
-                                <a href='#trading' class='navbar__link'>
+                                <a href='#trading' class='navbar__link navbar__link_dark'>
                                     <img 
-                                        src='Icons/trade.png' 
+                                        src='../Icons/trade.png' 
                                         alt='trade icon' 
                                         class='navbar__link-icon'
                                     />
@@ -77,9 +77,9 @@
                             </li>
 
                             <li class='navbar__item'>
-                                <a href='#reviews' class='navbar__link'>
+                                <a href='#reviews' class='navbar__link navbar__link_dark'>
                                     <img 
-                                        src='Icons/reviews.png' 
+                                        src='../Icons/reviews.png' 
                                         alt='reviews icon' 
                                         class='navbar__link-icon'
                                     />
@@ -88,12 +88,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class='lower-navbar'>
+                    <div class='navbar__bottom'>
                         <ul class='navbar__list'>
                             <li class='navbar__item'>
-                                <a href='#settings' class='navbar__link'>
+                                <a href='#settings' class='navbar__link navbar__link_dark'>
                                     <img 
-                                        src='Icons/settings.png' 
+                                        src='../Icons/settings.png' 
                                         alt='setings icon' 
                                         class='navbar__link-icon'
                                     />
@@ -101,9 +101,9 @@
                                 </a>
                             </li>
                             <li class='navbar__item'>
-                                <a href='#settings' class='navbar__link'>
+                                <a href='#settings' class='navbar__link navbar__link_dark'>
                                     <img 
-                                        src='Icons/help.png' 
+                                        src='../Icons/help.png' 
                                         alt='settings icon' 
                                         class='navbar__link-icon'
                                     />
@@ -111,9 +111,9 @@
                                 </a>
                             </li>
                         </ul>
-                        <button class='lower-navbar__button'>
+                        <button class='navbar__bottom-button'>
                             <img 
-                                src='Icons/support.png' 
+                                src='../Icons/support.png' 
                                 alt='support icon' 
                                 class='navbar__link-icon' 
                             /> 
@@ -121,12 +121,12 @@
                         </button>
                     </div>
                 </nav>
-                <main id='main-doc' class='main'>
-                    <section class='section' id='dashboard'>
-                        <header class='section__header'>
+                <main id='main-doc' class='main main_finance'>
+                    <section class='section section_finance' id='dashboard'>
+                        <header class='section__header section__header_finance'>
                             <h3>Dashboard</h3>
                         </header>
-                        <p class='section__paragraph'>
+                        <p class='section__paragraph section__paragraph_finance'>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Corrupti odio ut nam fugiat accusamus sapiente! Asperiores 
                             nemo quia delectus sunt, id aspernatur aliquid numquam sapiente
@@ -135,11 +135,11 @@
                         <button class='section__button'>Read more</button>
                     </section>
 
-                    <section class='section' id='social'>
-                        <header class='section__header'>
+                    <section class='section section_finance' id='social'>
+                        <header class='section__header section__header_finance'>
                             <h3>Social</h3>
                         </header>
-                        <p class='section__paragraph'>
+                        <p class='section__paragraph section__paragraph_finance'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus 
                             ad delectus quaerat, perspiciatis repellat commodi modi minus porro 
                             ullam soluta explicabo eius veniam, cupiditate facilis officia aperiam. 
@@ -149,12 +149,12 @@
                         <button class='section__button'>Read more</button>
                     </section>
 
-                    <section class='section' id='automation'>
-                        <header class='section__header'>
+                    <section class='section section_finance' id='automation'>
+                        <header class='section__header section__header_finance'>
                             <h3>Automation</h3>
                         </header>
 
-                        <p class='section__paragraph'>
+                        <p class='section__paragraph section__paragraph_finance'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus 
                             ad delectus quaerat, perspiciatis repellat commodi modi minus porro 
                             ullam soluta explicabo eius veniam, cupiditate facilis officia aperiam. 
@@ -164,11 +164,11 @@
                         <button class='section__button'>Read more</button>
                     </section>
 
-                    <section class='section' id='trading'>
-                        <header class='section__header'>
+                    <section class='section section_finance' id='trading'>
+                        <header class='section__header section__header_finance'>
                             <h3>Trading</h3>
                         </header>
-                        <p class='section__paragraph'>
+                        <p class='section__paragraph section__paragraph_finance'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus 
                             ad delectus quaerat, perspiciatis repellat commodi modi minus porro 
                             ullam soluta explicabo eius veniam, cupiditate facilis officia aperiam. 
@@ -178,11 +178,11 @@
                         <button class='section__button'>Read more</button>
                     </section>
 
-                    <section class='section' id='reviews'>
-                        <header class='section__header'>
+                    <section class='section section_finance' id='reviews'>
+                        <header class='section__header section__header_finance'>
                             <h3>Reviews</h3>
                         </header>
-                        <p class='section__paragraph'>
+                        <p class='section__paragraph section__paragraph_finance'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus 
                             ad delectus quaerat, perspiciatis repellat commodi modi minus porro 
                             ullam soluta explicabo eius veniam, cupiditate facilis officia aperiam. 
@@ -192,16 +192,16 @@
                         <button class='section__button'>Read more</button>
                     </section>
                 </main>
-                <footer class='footer' id='footer'>
-                    <div class='upper-footer-row'>
-                        <div class='footer__logo'>
-                            <a href='#' class='footer__logo-link'>
-                                <span class='footer__logo-text'>M I C </span>
+                <footer class='footer footer_finance' id='footer'>
+                    <div class='footer__top'>
+                        <div class='footer-logo'>
+                            <a href='#' class='footer-logo__logo-link footer-logo__logo-link_finance'>
+                                <span class='footer-logo__logo-text'>M I C </span>
                                 <img 
-                                    src='Images/logo.png' 
+                                    src='../Images/logo.png' 
                                     width='50' 
                                     height='50' 
-                                    class='footer__logo-pic'
+                                    class='footer-logo__logo-pic footer-logo__logo-pic_rounded'
                                 />
                             </a>                          
                         </div>
@@ -210,7 +210,7 @@
                             <li class='footer__item'>
                                 <a 
                                     href='../index.html' 
-                                    class='footer__link'
+                                    class='footer__link footer__link_dark'
                                     target=''_blank'
                                 >
                                     Back To Main
@@ -220,69 +220,49 @@
                             <li class='footer__item'>
                                 <a 
                                     href='../similar-site-1/index.html' 
-                                    class='footer__link'
+                                    class='footer__link footer__link_dark'
                                     target=''_blank'
                                 >
                                     Similar Site 1
                                 </a>
                             </li>
-
-                            <li class='footer__item'>
-                                <a 
-                                    href='https://pranx.com/fbi-warning/' 
-                                    class='footer__link'
-                                    target=''_blank'
-                                >
-                                    Sign up
-                                </a>
-                            </li>
-    
-                            <li class='footer__item'>
-                                <a 
-                                    href='https://pranx.com/matrix-code-rain/' 
-                                    class='footer__link'
-                                    target=''_blank'
-                                >
-                                    Log In
-                                </a>
-                            </li>
                         </ul>
                     </div>
 
-                    <div class='middle-footer-row'>
-                        <a href=''>
+                    <div class='footer__middle'>
+                        <a href='' class='social-icon'>
                             <img 
-                                src='Images/gmail-logo.png' 
+                                src='../Images/gmail-logo.png' 
                                 alt='gmail logo' 
-                                class='footer__icon'
+                                class='social-icon__logo'
                             />
                         </a>
 
-                        <a href=''>
+                        <a href='' class='social-icon'>
                             <img 
-                                src='Images/vk-logo.png' 
+                                src='../Images/vk-logo.png' 
                                 alt='vk logo' 
-                                class='footer__icon'
+                                class='social-icon__logo'
                             />
                         </a>
 
-                        <a href=''>
+                        <a href='' class='social-icon'>
                             <img 
-                                src='Images/insta-logo.png' 
+                                src='../Images/insta-logo.png' 
                                 alt='instagram logo' 
-                                class='footer__icon'
+                                class='social-icon__logo'
                             />
                         </a>
 
-                        <a href=''>
+                        <a href='' class='social-icon'>
                             <img 
-                                src='Images/fb-logo.png' 
+                                src='../Images/fb-logo.png' 
                                 alt='facebook logo' 
-                                class='footer__icon'
+                                class='social-icon__logo'
                             />
                         </a>
                     </div>              
-                     <p class='footer__copyright'>2022 &copy; M I C. All Rights Reserved</p>
+                     <p class='footer__copyright footer__copyright_dark'>2022 &copy; M I C. All Rights Reserved</p>
                 </footer>
             
             </div>
