@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -10,9 +10,11 @@ body{
 .page-container {
     display: flex;
     flex-direction: column;
+
     width: 100vw;
     margin: 0;
     padding: 0;
+
     color: white;
 }
 
@@ -24,30 +26,20 @@ body{
     width: 80%;
     margin: 0 0 0 19%;
     padding: 3rem;
-    background-color: rgb(34, 46, 66);
+
     font-family: 'Patrick Hand', cursive;
+
+    background-color: rgb(34, 46, 66);
 }
 
 .main_javascript {
     background-color: rgb(0, 0,0);
 }
 
-.main_finance {
-    padding: 0;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(
-      90deg,
-      rgba(4, 52, 116, 0.6),
-      rgba(57, 131, 9, 0.6)),
-    url('../Images/main-bg-finance.jpeg')
-    center no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 .main-logo {
     width: 80px;
     height: 80px;
+
     border-radius: 50%;
 }
 
@@ -62,8 +54,8 @@ body{
 
     .main {
         width: 100%;
+        min-height: 100vh;
         margin: 0;
         padding-top: 35vh;
-        min-height: 100vh;
     }
 }
