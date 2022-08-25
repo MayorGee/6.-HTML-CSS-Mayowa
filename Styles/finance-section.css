@@ -1,0 +1,20 @@
+.finance-main__section {
+    width: 100%;
+    padding: 3rem;
+    margin-bottom: 4rem;
+
+    background: 
+        linear-gradient(
+            90deg,
+            rgba(31, 29, 30, 0.6),
+            rgba(216, 212, 212, 0.6)
+        ),
+        url('../Images/trading-bg.jpeg')
+        center 
+        no-repeat;
+    background-size: cover;
+}
+
+.finance-main__section .section__paragraph {
+    width: 50%;
+}

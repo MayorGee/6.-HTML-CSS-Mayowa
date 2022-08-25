@@ -1,0 +1,43 @@
+.section__list {
+    padding-left: 3rem;
+}
+
+.section__link {
+    color: #42f5ef;
+    text-decoration: none;
+}
+
+.section__link_javascript {
+    color: #13db1d;
+}
+
+.section__paragraph {
+    margin: 10px;
+    text-indent: 15px;
+}
+
+.section__button {
+    padding: 0.2rem 0.5rem;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.section-image {
+    display: block;
+
+    margin: 2rem;
+}
+
+.section__header {
+    color: #ebd69d;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+
+.section__header_light {
+    color: rgb(255,255,255);
+}

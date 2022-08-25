@@ -1,0 +1,11 @@
+.page-content {
+    margin: 15vh 25%;
+    width: 60vw;
+    text-align: center;
+}
+
+.page-content__exit {
+    color: rgb(199, 117, 11);
+    display: block;
+    text-decoration: none;
+}
